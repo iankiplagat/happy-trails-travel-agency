@@ -106,3 +106,30 @@ img {
     text-align: right;
     padding: 100px;
     text-align: end;
+}
+
+.about {
+    padding: 0;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.message {
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.background {
+    background-image: url(beach.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 88vh;
+    
+}
