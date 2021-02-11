@@ -14,6 +14,9 @@ body {
     font: 'Lato', sans-serif;
     color: #333;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 ul {
@@ -59,8 +62,9 @@ img {
 .navbar {
     background-color:#d45d08;
     color: #fff;
-    margin-top: 0;
+    /* margin-top: 0; */
     padding: 30px;
+    /* flex: 1; */
 }
 
 .navbar nav {
@@ -98,8 +102,7 @@ img {
     height: 80vh;
     color: black;
     margin-top: 20px;
-    /* display: flex;
-    flex-direction: row; */
+
 }
 
 .gift {
@@ -116,13 +119,15 @@ img {
 }
 
 .message {
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 200p;
+    padding: 200px 300px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     text-align: center;
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    border: 1px rgb(133, 133, 133, 0.1) solid;
 
 }
 
@@ -132,5 +137,6 @@ img {
     background-size: 100%;
     background-position: center;
     height: 88vh;
+
     
 }
