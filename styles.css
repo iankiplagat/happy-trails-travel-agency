@@ -193,3 +193,15 @@ img {
     width: 50%;
   }
 
+  .contact {
+      color: chocolate;
+      padding: 20px 500px;
+  }
+
+.message {
+    display: grid;
+    float: right;
+    width: 30%;
+    height: 40vh;
+  
+  
